@@ -33,7 +33,7 @@ jobs:
         with:
           submodules: false
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
       - name: Export GitHub Actions cache environment variables
@@ -75,7 +75,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
 
@@ -141,7 +141,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
       - name: Export GitHub Actions cache environment variables
@@ -181,7 +181,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
       - name: Export GitHub Actions cache environment variables
@@ -219,7 +219,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
       - name: Export GitHub Actions cache environment variables
@@ -259,7 +259,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
 
@@ -578,7 +578,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           submodules: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
       - name: Download Test Data Artifact
